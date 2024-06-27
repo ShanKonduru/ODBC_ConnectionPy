@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "odbc-connectionpy"
+version = "0.1.0"
+description = "Program to show how to connect to database using ODBC driver without USN and PWD."
+authors = ["ShanKonduru <ShanKonduru@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "odbc_connectionpy"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyodbc = "^5.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
